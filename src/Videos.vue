@@ -17,7 +17,7 @@ export default {
     axios.get('src/assets/recommendations.json')
       .then( response => {
         console.log(response);
-        this.inital = response.data.[i].title
+        // this.inital = response.data.[i].title
         // TODO: Iterate over this response object inside the template above
       })
       .catch( error => {
